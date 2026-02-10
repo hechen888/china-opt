@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>中国各类商品批发 - Опт товаров из Китая</title>
+  <style>
+    body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background:#f5f5f5; color:#333; }
+    header { background:#ff5000; color:white; padding:10px 20px; position:sticky; top:0; z-index:1000; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    .logo { font-size:28px; font-weight:bold; margin:0; display:inline-block; }
+    .search-bar { margin:15px 0; display:flex; max-width:800px; margin-left:auto; margin-right:auto; }
+    .search-bar input { flex:1; padding:12px; font-size:16px; border:none; border-radius:4px 0 0 4px; outline:none; }
+    .search-bar button { background:#fff; color:#ff5000; border:none; padding:0 25px; font-size:16px; font-weight:bold; border-radius:0 4px 4px 0; cursor:pointer; }
+    nav { background:#fff; border-bottom:1px solid #ddd; padding:10px 20px; text-align:center; overflow-x:auto; white-space:nowrap; }
+    nav a { display:inline-block; padding:8px 20px; margin:0 5px; text-decoration:none; color:#333; font-weight:500; }
+    nav a:hover { color:#ff5000; border-bottom:3px solid #ff5000; }
+    .container { max-width:1200px; margin:20px auto; padding:0 15px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:15px; }
+    .card { background:#fff; border:1px solid #eee; border-radius:8px; overflow:hidden; text-decoration:none; color:#333; transition:transform 0.2s, box-shadow 0.2s; }
+    .card:hover { transform:translateY(-5px); box-shadow:0 10px 20px rgba(0,0,0,0.1); }
+    .card img { width:100%; height:220px; object-fit:cover; }
+    .card-info { padding:10px; }
+    .card-title { font-size:14px; margin:0 0 8px; line-height:1.4; height:40px; overflow:hidden; }
+    .card-price { color:#ff5000; font-size:18px; font-weight:bold; }
+    .card-price small { font-size:12px; color:#999; text-decoration:line-through; margin-left:8px; }
+    footer { background:#333; color:#ccc; text-align:center; padding:30px 20px; margin-top:40px; }
+    .contact { font-size:18px; margin:15px 0; }
+    .contact a { color:#ff5000; text-decoration:none; font-weight:bold; }
+    .contact a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+
+  <!-- 顶部导航栏（模仿1688橙色风格） -->
+  <header>
+    <h1 class="logo">中国各类商品批发</h1>
+    <h1 class="logo" style="margin-left:20px;">Опт товаров из Китая</h1>
+    <div class="search-bar">
+      <input type="text" placeholder="搜索你想要的商品（服装/电子/家居等）" />
+      <button>搜索</button>
+    </div>
+  </header>
+
+  <!-- 分类导航 -->
+  <nav>
+    <a href="#">服装服饰</a>
+    <a href="#">手机数码</a>
+    <a href="#">家居家装</a>
+    <a href="#">美妆个护</a>
+    <a href="#">母婴用品</a>
+    <a href="#">食品饮料</a>
+    <a href="#">小商品</a>
+    <a href="#">工业品</a>
+    <a href="#">全部类目</a>
+  </nav>
+
+  <!-- 商品展示区 -->
+  <div class="container">
+    <h2 style="text-align:center; color:#ff5000;">热销商品推荐 / Популярные товары</h2>
+    <div class="grid">
+      <!-- 示例商品卡片（你可以复制多加几张） -->
+      <a href="https://vk.me/你的VKID" class="card" target="_blank">
+        <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=800" alt="连衣裙">
+        <div class="card-info">
+          <p class="card-title">2025新款夏季连衣裙 性感显瘦 工厂直供</p>
+          <p class="card-price">¥39.9 <small>¥89</small></p>
+          <p style="font-size:12px; color:#999;">起批1件 / Опт от 1 шт</p>
+        </div>
+      </a>
+
+      <a href="https://vk.me/你的VKID" class="card" target="_blank">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800" alt="手机壳">
+        <div class="card-info">
+          <p class="card-title">iPhone 16/15 防摔磁吸手机壳 现货批发</p>
+          <p class="card-price">¥6.8 <small>¥15</small></p>
+          <p style="font-size:12px; color:#999;">起批10件 / Опт от 10 шт</p>
+        </div>
+      </a>
+
+      <a href="https://vk.me/你的VKID" class="card" target="_blank">
+        <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800" alt="厨房用品">
+        <div class="card-info">
+          <p class="card-title">304不锈钢厨房刀具套装 工厂源头价</p>
+          <p class="card-price">¥29.9 <small>¥69</small></p>
+          <p style="font-size:12px; color:#999;">起批1套 / Опт от 1 компл</p>
+        </div>
+      </a>
+
+      <!-- 你可以继续复制上面的 <a class="card"> ... </a> 结构加更多商品 -->
+    </div>
+  </div>
+
+  <!-- 底部联系方式（下午联系） -->
+  <footer>
+    <h2>欢迎联系我们 / Свяжитесь с нами</h2>
+    <p class="contact">下午在线时间：14:00 - 22:00 (HKT)</p>
+    <p class="contact">VK: <a href="https://vk.com/你的VKID" target="_blank">vk.com/你的VKID</a></p>
+    <p class="contact">Telegram: <a href="https://t.me/你的Telegram" target="_blank">@你的Telegram</a></p>
+    <p class="contact">微信/WeChat: 你的微信号（可发商品链接）</p>
+    <p style="margin-top:20px; font-size:14px;">1688源头工厂直供 · 品质保证 · 支持一件代发 · 欢迎俄罗斯朋友合作</p>
+  </footer>
+
+</body>
+</html>
